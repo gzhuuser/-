@@ -1,0 +1,25 @@
+<navigator url="../manager_list/manager_list">
+    <view class="cat_list">
+        <text>猫咪信息管理</text>
+        <image class="arrows_right" src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/jiantou.png"></image>
+    </view>
+</navigator>
+
+<navigator url="../add/add?id=1">
+    <view class="cat_list">
+        <text>活动发布</text>
+        <image class="arrows_right" src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/jiantou.png"></image>
+    </view>
+</navigator>
+<navigator url="../add/add?id=2">
+    <view class="cat_list">
+        <text>科普知识发布</text>
+        <image class="arrows_right" src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/jiantou.png"></image>
+    </view>
+</navigator>
+<navigator url="../add_cat/add_cat">
+    <view class="cat_list">
+        <text>添加猫咪信息</text>
+        <image class="arrows_right" src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/jiantou.png"></image>
+    </view>
+</navigator>

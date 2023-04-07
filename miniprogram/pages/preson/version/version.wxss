@@ -1,0 +1,44 @@
+.tu {
+    float: left;
+    text-align: center;
+}
+
+.version_box {
+    position: absolute;
+    top: 450rpx;
+    width: 650rpx;
+    margin-left: 50rpx;
+    border: #666666 solid 1rpx;
+    border-radius: 20rpx;
+    box-shadow: slategrey 15rpx 15rpx 15rpx 1rpx;
+}
+
+.updata_log {
+    position: relative;
+    top: -25rpx;
+    left: -25rpx;
+    height: 50rpx;
+    width: 150rpx;
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 20rpx
+}
+
+.inner {
+    border-top: #666666 dashed 1rpx;
+}
+
+.version {
+    text-align: center;
+    font-size: larger;
+}
+
+.context {
+    margin-left: 20rpx;
+    margin-top: 10rpx;
+}
+
+.time {
+    margin-left: 20rpx;
+    margin-top: 10rpx;
+}

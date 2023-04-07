@@ -1,0 +1,242 @@
+/* pages/tianjia/tianjia.wxss */
+page {
+    background-color: #f0f3e4;
+}
+
+.mengquan {
+    background-color: #f2f5fa;
+}
+
+
+.middle {
+    height: 110rpx;
+    margin-top: 15rpx;
+    padding-top: 10rpx;
+
+}
+
+.middle .m-box {
+    float: left;
+    height: 140rpx;
+    width: 130rpx;
+    line-height: 30rpx;
+    margin-top: 2rpx;
+    margin-left: 50rpx;
+    text-align: center;
+    font-size: 25rpx;
+    color: #818181;
+}
+
+.middle .m-box .img {
+    height: 80rpx;
+    width: 130rpx;
+    line-height: 100rpx;
+    text-align: center;
+}
+
+.middle .m-box .img image {
+    height: 70rpx;
+    width: 70rpx;
+}
+
+.middle .m-box .txt {
+    height: 40rpx;
+    width: 130rpx;
+    text-align: center;
+    padding-left: 22rpx;
+}
+
+.middle .m-box .txt {
+    height: 40rpx;
+    width: 80rpx;
+    font-size: 20rpx;
+    text-align: center;
+    color: gray;
+}
+
+.bm2-box,
+.bm1-box {
+    float: left;
+    width: 670rpx;
+    margin-left: 36rpx;
+    background-color: #f2f5fa;
+}
+
+.b-box {
+    float: left;
+    width: 670rpx;
+
+    margin-bottom: 16rpx;
+    border-radius: 14rpx 14rpx 14rpx 14rpx;
+    box-shadow: 5rpx 5rpx 15rpx #aaaaaa;
+    background-color: #fff;
+}
+
+.box1 .touxiang {
+    float: left;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 100rpx;
+    text-align: center;
+}
+
+.touxiang image {
+    margin-top: 5rpx;
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 100rpx;
+}
+
+.box1 .name {
+    float: left;
+    height: 50rpx;
+    width: 500rpx;
+    line-height: 50rpx;
+    margin-left: 5rpx;
+    font-size: 30rpx;
+}
+
+.box1 .time {
+    float: left;
+    height: 50rpx;
+    width: 500rpx;
+    line-height: 30rpx;
+    margin-left: 5rpx;
+    font-size: 20rpx;
+    color: #818181;
+}
+
+.b-box .tu {
+    float: left;
+    width: 200rpx;
+    height: 200rpx;
+    margin-left: 18rpx;
+}
+
+.b-box .tu image {
+    height: 100%;
+    width: 100%;
+    border-radius: 14rpx 14rpx 14rpx 14rpx;
+}
+
+
+
+.b-box .text {
+    float: left;
+    width: 630rpx;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    line-height: 40rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 24rpx;
+    margin: 20rpx 40rpx 20rpx 30rpx;
+}
+
+.tubiao {
+    float: left;
+    height: 30rpx;
+    width: 670rpx;
+    font-size: 24rpx;
+}
+
+.n2,
+.n3,
+.n1 {
+    float: right;
+    height: 40rpx;
+    width: 80rpx;
+    margin-left: 20rpx;
+    line-height: 40rpx;
+}
+
+.pic {
+    float: left;
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.n1 image {
+    height: 30rpx;
+    width: 30rpx;
+    margin-top: 9rpx;
+}
+
+.n2 image,
+.n3 image {
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.n2 .n,
+.n3 .n,
+.n1 .n {
+    float: left;
+    height: 40rpx;
+    width: 40rpx;
+    line-height: 48rpx;
+}
+
+.t-gao {
+    position: fixed;
+    height: 80rpx;
+    width: 80rpx;
+    right: 20rpx;
+    bottom: 100rpx;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+
+.kong {
+    float: left;
+    height: 50rpx;
+}
+
+
+
+
+
+
+
+
+/* message */
+/* pages/index/message/cat_list/cat_list.wxss */
+.block {
+    background-color: #f2f5fa;
+}
+
+.cat_list {
+    width: 700rpx;
+    margin-left: 25rpx;
+    margin-top: 30rpx;
+    border-radius: 30rpx;
+    box-shadow: 10rpx 15rpx 15rpx #aaaaaa;
+    overflow: hidden;
+    line-height: 50rpx;
+    background-color: #f0e6d6;
+}
+
+.cat_list image {
+    width: 700rpx;
+    height: 500rpx;
+}
+
+.cat_infromation {
+    margin-left: 30rpx;
+}
+
+.cat_name {
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.cat_gender {
+    margin-bottom: 10rpx;
+}
+
+.line {
+    color: #e6e3de;
+}

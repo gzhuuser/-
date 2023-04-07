@@ -1,0 +1,5 @@
+<!--pages/message/donation/donation.wxml-->
+<view class="container">
+    <image class="backgound" src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/do.jpg"></image>
+    <image class="erweima" src="#"></image>
+</view>

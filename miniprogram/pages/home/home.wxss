@@ -1,0 +1,149 @@
+page {
+    background-color: #f0f3e4;
+}
+
+.h-box {
+    height: 100rpx;
+    width: 300rpx;
+    margin-top: 10rpx;
+    margin-left: 225rpx;
+    text-align: center;
+    line-height: 100rpx;
+    background-color: rgb(255, 233, 161);
+    border-radius: 20rpx;
+    border: #dbc3c3 solid 1rpx;
+}
+
+.h-box text {
+    font-size: 40rpx;
+}
+
+.n {
+    display: inline-block;
+    height: 60rpx;
+    width: 100rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 30rpx 30rpx 30rpx 30rpx;
+    font-size: 24rpx;
+    margin: 0 8rpx;
+}
+
+.m-box {
+    position: relative;
+    width: 500rpx;
+    height: 1000rpx;
+    border-radius: 18rpx;
+    margin: 0 auto;
+    box-shadow: 10rpx 15rpx 15rpx #aaaaaa;
+}
+
+.image {
+    width: 500rpx;
+    height: 700rpx;
+    border-radius: 18rpx;
+}
+
+.image image {
+    width: 500rpx;
+    height: 700rpx;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    height: 400rpx;
+    width: 500rpx;
+    border-radius: 24rpx;
+    background-color: #e6dccc;
+}
+
+.message {
+    height: 80rpx;
+    width: 460rpx;
+    margin: 1rpx 20rpx;
+    border-bottom: 1rpx dotted #333;
+}
+
+.name {
+    float: left;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-weight: 600;
+}
+
+.sex {
+    float: left;
+    height: 30rpx;
+    margin-top: 25rpx;
+}
+
+.sex image {
+    height: 30rpx;
+    width: 30rpx;
+}
+
+.age {
+    float: right;
+    height: 80rpx;
+    color: gray;
+    font-size: 24rpx;
+    line-height: 90rpx;
+}
+
+.age text {
+    color: gold;
+
+}
+
+.inner {
+    height: 319rpx;
+    width: 460rpx;
+    display: -webkit-box;
+    -webkit-line-clamp: 100;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0 20rpx;
+    font-size: 40rpx;
+}
+
+.l {
+    position: absolute;
+    width: 60rpx;
+    height: 80rpx;
+    left: -50rpx;
+    bottom: 120rpx;
+    background-color: #e285d6;
+    border-radius: 18rpx 0 0 18rpx;
+}
+
+.r image,
+.l image {
+    width: 60rpx;
+    height: 60rpx;
+    margin-top: 10rpx;
+}
+
+.r {
+    position: absolute;
+    width: 60rpx;
+    height: 80rpx;
+    right: -50rpx;
+    bottom: 120rpx;
+    background-color: #e285d6;
+    border-radius: 0 18rpx 18rpx 0;
+}
+
+.ry {
+    position: fixed;
+    right: 30rpx;
+    bottom: 800rpx;
+    height: 120rpx;
+    width: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: gray;
+}

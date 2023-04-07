@@ -1,0 +1,55 @@
+/* pages/xiaji/guanyu/guanyu.wxss */
+.tu {
+    text-align: center;
+}
+
+image {
+    width: 600rpx;
+    height: 600rpx;
+}
+
+.info {
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 200rpx;
+    margin: 20rpx 20rpx;
+    font-size: 32rpx;
+    padding: 10rpx 20rpx;
+    border-radius: 18rpx 18rpx 18rpx 18rpx;
+    background-color: #fff;
+    box-shadow: 10rpx 10rpx 10rpx #aaaaaa;
+    line-height: 50rpx;
+}
+
+.s {
+    font-size: 34rpx;
+    padding-left: 30rpx;
+    color: orange;
+}
+
+.b-box {
+    margin: 20rpx 40rpx;
+    line-height: 50rpx;
+}
+
+.t {
+    float: left;
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 50%;
+    border: 1rpx solid rgb(119, 119, 119);
+    margin-left: 20rpx;
+}
+
+.t image {
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 50%;
+}
+
+.class {
+    width: 750rpx;
+}

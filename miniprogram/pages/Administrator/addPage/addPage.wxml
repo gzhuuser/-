@@ -1,0 +1,44 @@
+<!--pages/Administrator/manager_activities/AddPage/AddPage.wxml-->
+<form bindsubmit="bthsub">
+    <view class="title">
+        <input name="Title" maxlength="20" placeholder="标题" />
+    </view>
+    <view class="wrap">
+        <view class="img-wrap">
+            <view class="txt">上传列表显示图片</view>
+            <view class="imglist">
+                <view class="last-item" wx:if="{{flag == 1 ? false : true}}" bindtap="bindUploadPic">
+                    <text class="sign">+</text>
+                </view>
+                <view class="item" wx:if="{{flag==1}}">
+                    <image src="{{TopPic}}"></image>
+                    <view class='delete' bindtap='deletepic'>
+                        <image src="../../../../image/myself.png"></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="wrap">
+        <view class="img-wrap">
+            <view class="txt">上传图片</view>
+            <view class="imglist">
+                <view class="item" wx:for="{{imgs}}" wx:key="item">
+                    <image src="{{item}}"></image>
+                    <view class='delete' bindtap='deleteImg' data-index="{{index}}">
+                        <image src="../../../../image/myself.png"></image>
+                    </view>
+                </view>
+                <view class="last-item" wx:if="{{imgs.length >= 3 ? false : true}}" bindtap="bindUpload">
+                    <text class="sign">+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="inner">
+        <textarea class="input" name="remark" placeholder="请输入内容" auto-focus="true" maxlength="-1" />
+    </view>
+    <view class="btn">
+        <button form-type="submit">上传</button>
+    </view>
+</form>

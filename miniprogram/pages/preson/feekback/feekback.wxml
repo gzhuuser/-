@@ -1,0 +1,7 @@
+<!--pages/index/index/index.wxml-->
+<view class="gonggao">
+    <text class="xuzhi">客服须知</text>
+    <text class="text" decode="true">&emsp;本客服是用户在体验小程序中发现问题,以及发现猫谱中没有记录的猫咪后进行反馈的一个途径,由于客服还是学生, 平时也要完成学业上的要求,有时可能不能及时回复,请见谅。</text>
+</view>
+
+<button type="primary" open-type="contact">确定</button>

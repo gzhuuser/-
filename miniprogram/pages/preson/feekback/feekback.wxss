@@ -1,0 +1,29 @@
+/* pages/index/index/index.wxss */
+page {
+    background-color: #e0e0e0;
+}
+
+.xuzhi {
+    display: block;
+    width: 700rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    font-size: 36rpx;
+    border-bottom: 2rpx dashed #e6e6e6;
+}
+
+.gonggao {
+    width: 700rpx;
+    height: 300rpx;
+    margin-left: 25rpx;
+    background: #ffffff;
+    border-radius: 20rpx 20rpx 20rpx 20rpx;
+    box-shadow: 10rpx 15rpx 15rpx #aaaaaa;
+    margin-top: 10rpx;
+}
+
+.text {
+    margin-left: 5rpx;
+    line-height: 50rpx;
+}

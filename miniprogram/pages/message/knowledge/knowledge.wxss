@@ -1,0 +1,30 @@
+/* pages/message/knowledge/knowledge.wxss */
+page {
+    background-color: #ececea;
+}
+
+.image_title {
+    display: flex;
+    height: 150rpx;
+    width: 700rpx;
+    margin-bottom: 15rpx;
+    margin-left: 25rpx;
+    background-color: rgb(255, 254, 254);
+    border-radius: 20rpx;
+}
+
+.image_title image {
+    margin-bottom: 15rpx;
+    margin-left: 15rpx;
+    margin-top: 15rpx;
+    height: 120rpx;
+    width: 120rpx;
+    border-radius: 20rpx;
+}
+
+.image_title .text {
+    margin-top: 15rpx;
+    margin-left: 15rpx;
+    font-size: 40rpx;
+    line-height: 45rpx;
+}

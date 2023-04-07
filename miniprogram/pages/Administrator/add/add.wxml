@@ -1,0 +1,16 @@
+<!--pages/Administrator/manager_activities/addActivities.wxml-->
+<view class="top">活动发布</view>
+<view class="box" wx:for="{{activities}}">
+    <view class="inner" data-index="{{item}}">
+        <view class="name">{{item.title}}</view>
+        <view class="del" bindtap="delete" data-index="{{index}}">del</view>
+    </view>
+</view>
+<view class="add" style="text-align: center;">
+    <navigator url="../addPage/addPage?id={{id}}"  open-type="redirectTo">
+        <van-button type="primary" size="large">+</van-button>
+    </navigator>
+    <!-- <button type="primary">
+        <navigator url="../addPage/addPage?id={{id}}">+</navigator>
+    </button> -->
+</view>

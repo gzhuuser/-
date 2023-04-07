@@ -1,0 +1,18 @@
+/* pages/Administrator/Administrator.wxss */
+.cat_list {
+    height: 100rpx;
+    border-bottom: 1rpx solid rgb(211, 209, 209);
+}
+
+.cat_list text {
+    line-height: 100rpx;
+    font-size: 36rpx;
+    margin-left: 10rpx;
+}
+
+.cat_list .arrows_right {
+    float: right;
+    height: 70rpx;
+    width: 70rpx;
+    margin-top: 15rpx;
+}

@@ -1,0 +1,84 @@
+page {
+    background-color: #f0f3e4;
+}
+
+.logo {
+    width: 750rpx;
+    height: 350rpx;
+    display: flex;
+}
+
+.logo_image {
+    height: 300rpx;
+    width: 200rpx;
+    margin-left: 275rpx;
+    margin-top: 50rpx;
+    vertical-align: middle;
+}
+
+.logo_image image {
+    height: 190rpx;
+    width: 200rpx;
+
+    border-radius: 20rpx;
+}
+
+.text {
+    text-align: center;
+    font-size: 35rpx;
+}
+
+.version {
+    text-align: center;
+    font-size: 24rpx;
+    color: #666666;
+}
+
+.list {
+    width: 750rpx;
+    height: 320rpx;
+}
+
+.Administrator {
+    float: left;
+    width: 310rpx;
+    height: 150rpx;
+    background-color: skyblue;
+    margin-left: 40rpx;
+    border-radius: 30rpx;
+}
+
+image {
+    width: 310rpx;
+    height: 150rpx;
+    border-radius: 30rpx;
+}
+
+.information_feekback {
+    float: left;
+    width: 310rpx;
+    height: 150rpx;
+    background-color: skyblue;
+    margin-left: 40rpx;
+    border-radius: 30rpx;
+}
+
+.about_us {
+    float: left;
+    width: 310rpx;
+    height: 150rpx;
+    background-color: skyblue;
+    margin-left: 40rpx;
+    margin-top: 15rpx;
+    border-radius: 30rpx;
+}
+
+.version_information {
+    float: left;
+    width: 310rpx;
+    height: 150rpx;
+    background-color: skyblue;
+    margin-left: 40rpx;
+    margin-top: 15rpx;
+    border-radius: 30rpx;
+}

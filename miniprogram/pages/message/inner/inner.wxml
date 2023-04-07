@@ -1,0 +1,11 @@
+<view class="know-box">
+    <view class="know-title">
+        <view class="name" style="font-family: sans-serif;">{{inner[0].title}}</view>
+    </view>
+    <view class="know-content">
+        <view>{{inner[0].inner}}</view>
+    </view>
+    <view class="know-image" wx:for="{{inner[0].image}}">
+        <image class="cat-image" src="{{item}}" mode="aspectFill"></image>
+    </view>
+</view>

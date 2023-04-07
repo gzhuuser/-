@@ -1,0 +1,54 @@
+/* components/image-select/image-select.wxss */
+.big-box {
+    height: 500rpx;
+    width: 500rpx;
+    margin: 20rpx auto;
+}
+
+.i {
+    height: 400rpx;
+    width: 400rpx;
+    margin: 0 50rpx;
+}
+
+.i image {
+    height: 400rpx;
+    width: 400rpx;
+}
+
+.i-t {
+    height: 100rpx;
+    text-align: center;
+    margin-top: 20rpx;
+}
+
+.i-t button {
+    background-color: skyblue;
+}
+
+.messages {
+    width: 700rpx;
+    margin: 10rpx auto;
+    font-size: 28rpx;
+    background-color: #ffffff;
+    box-shadow: 5rpx 8rpx 15rpx #aaaaaa;
+}
+
+.name,
+.like {
+    padding-left: 20rpx;
+    height: 40rpx;
+    width: 700rpx;
+    line-height: 40rpx;
+    color: skyblue;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.message {
+    display: flexbox;
+    width: 660rpx;
+    padding: 0 20rpx;
+}

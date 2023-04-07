@@ -1,0 +1,47 @@
+<view class="main w">
+    <view class="cat_information1">
+        <view class="image">
+            <image src="{{cat[0].image}}" class="image1"></image>
+        </view>
+        <view class="name_otherName_gender_year">
+            <view class="name">
+                <text>名字: </text>{{cat[0].name}}
+            </view>
+            <view class="otherName">
+                <text> 别名: {{cat[0].name}}</text>
+            </view>
+            <view class="gender">
+                <text> 性别: {{cat[0].gender}}</text>
+            </view>
+            <view class="year">
+                <text>年龄: {{cat[0].year}}</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="cat_information2">
+        <view class="address">
+            <text>出没地点: {{cat[0].address}}</text>
+        </view>
+
+        <view class="intimacy">
+            <!-- 亲密度 -->
+            <text>亲密度获取方式:{{cat[0].intimacy}}</text>
+        </view>
+
+        <view class="story">
+            <text>有史料记载:{{cat[0].story}}</text>
+        </view>
+        <view class="picture">
+            <text>美照:</text>
+            <view class="picture_item" wx:for="{{cat[0].picture}}" wx:for-index="goodIndex">
+                <image src="{{item}}" bindtap="clickImg" data-index='{{goodIndex}}'></image>
+            </view>
+        </view>
+    </view>
+    <view class="line">----------</view>
+</view>
+<view wx:if="{{flat}}">
+    <button type="primary" bindtap="commit">点击上传猫咪图片</button>
+    <button type="primary">点击删除猫咪图片</button>
+</view>

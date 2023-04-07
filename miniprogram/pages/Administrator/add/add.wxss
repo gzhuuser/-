@@ -1,0 +1,32 @@
+.top {
+    width: 750rpx;
+    height: 60rpx;
+    text-align: center;
+}
+
+.add button {
+    margin-top: 10rpx;
+    /* background-color: rgb(230, 142, 142); */
+}
+
+.box {
+    width: 750rpx;
+}
+
+.inner {
+    width: 750rpx;
+    height: 60rpx;
+    border-bottom: 1rpx solid rgb(211, 209, 209);
+}
+
+.inner .name {
+    float: left;
+    line-height: 60rpx;
+    padding-left: 60rpx;
+}
+
+.inner .del {
+    float: right;
+    line-height: 60rpx;
+    padding-right: 40rpx;
+}

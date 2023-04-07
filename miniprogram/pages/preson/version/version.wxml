@@ -1,0 +1,13 @@
+<view class="tu">
+    <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/shangbiao.png"></image>
+</view>
+<view class="version_box">
+    <view class="updata_log"><text>更新日志</text></view>
+    <view class="inner">
+        <block class="inner" wx:for="{{update_log}}">
+            <view class="version"><text>{{item.version}}</text></view>
+            <view class="context" wx:for="{{item.context}}" wx:key="*this">-{{item}}</view>
+            <view class="time">{{item.time}}</view>
+        </block>
+    </view>
+</view>

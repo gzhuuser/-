@@ -1,0 +1,18 @@
+<!--components/image-select/image-select.wxml-->
+
+<view class="big-box">
+    <view class="i">
+        <image src="{{aimgur1}}"></image>
+    </view>
+    <view bindtap="browse" class="i-t">
+        <button>相机/相册</button>
+    </view>
+    <!-- <view bindtap="deleted" class="i-d">
+        <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/move.png"></image>
+    </view> -->
+</view>
+<view class="messages" wx:for="{{results}}" wx:key="item">
+    <view class="name">名字：{{item.name}}</view>
+    <view class="like">相似度：{{item.score}}</view>
+    <view class="message">{{item.baike_info.description}}</view>
+</view>

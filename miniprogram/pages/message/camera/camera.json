@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "image-select": "../../../components/image-select/image-select"
+    }
+}

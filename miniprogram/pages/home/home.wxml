@@ -1,0 +1,29 @@
+<!-- <scroll-view class="h-box" scroll-x="true">
+    <view class="n" bindtap="change" wx:for="{{school}}" wx:key="item" style="background-color: {{item.bcolor}};color: {{item.col}};" data-index="{{index}}">{{item.name}}</view>
+</scroll-view> -->
+<view class="h-box"><text>领养猫咪</text></view>
+<view class="m-box">
+    <view class="image" bindtap="btn">
+        <image src="{{nowShow.image}}"></image>
+    </view>
+    <view class="text">
+        <view class="message">
+            <view class="name">{{nowShow.name}}</view>
+            <view class="sex">
+                <image src="{{nowShow.sex}}"></image>
+            </view>
+        </view>
+        <view class="l" bindtap="lt">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image1/l.png"></image>
+        </view>
+        <view class="r" bindtap="rt">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image1/r.png"></image>
+        </view>
+        <scroll-view class="inner" scroll-y="true">{{nowShow.description}}</scroll-view>
+    </view>
+</view>
+
+
+<navigator url="../message/adoption/adoption">
+    <view class="ry">领养</view>
+</navigator>

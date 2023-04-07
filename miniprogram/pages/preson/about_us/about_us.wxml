@@ -1,0 +1,24 @@
+<!--pages/xiaji/guanyu/guanyu.wxml-->
+<view class="tu">
+    <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/shangbiao.png"></image>
+</view>
+<view class="info"><text class="s">爱猫岛</text>小程序成立的目的是为了给高校提供一个方便管理的在校喵咪的信息平台。由于缺乏开发经验,如果不足请多支出。</view>
+<view class="b-box">
+    <view class="b-h">当前维护者:
+        <view>智能211李冠标 智能211苏向标 智能211邱颖锋 智能211蔡毓谋</view>
+    </view>
+    <view class="tou">
+        <view class="t">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/11.png"></image>
+        </view>
+        <view class="t">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/22.png"></image>
+        </view>
+        <view class="t">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/3.png"></image>
+        </view>
+        <view class="t">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/4.png"></image>
+        </view>
+    </view>
+</view>

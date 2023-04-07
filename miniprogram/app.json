@@ -1,0 +1,58 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/message/message/message",
+        "pages/message/adoption/adoption",
+        "pages/message/knowledge/knowledge",
+        "pages/message/activity/activity",
+        "pages/message/camera/camera",
+        "pages/message/inner/inner",
+        "pages/message/cat_list/cat_list",
+        "pages/preson/preson/preson",
+        "pages/preson/about_us/about_us",
+        "pages/preson/feekback/feekback",
+        "pages/preson/version/version",
+        "pages/Administrator/index/index",
+        "pages/Administrator/login/login",
+        "pages/Administrator/manager_list/manager_list",
+        "pages/Administrator/add/add",
+        "pages/Administrator/add_cat/add_cat",
+        "pages/Administrator/addPage/addPage"
+    ],
+    "window": {
+        "navigationBarTitleText": "爱猫岛",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFF",
+        "enablePullDownRefresh": false,
+        "onReachBottomDistance": 50,
+        "backgroundColor": "#AFEEEE",
+        "backgroundTextStyle": "dark",
+        "navigationStyle": "default"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "list": [{
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "image/home.png",
+                "selectedIconPath": "image/home1.png"
+            },
+            {
+                "pagePath": "pages/message/message/message",
+                "text": "萌圈",
+                "iconPath": "image/mengquan.png",
+                "selectedIconPath": "image/mengquan1.png"
+            },
+            {
+                "pagePath": "pages/preson/preson/preson",
+                "text": "个人",
+                "iconPath": "image/myself.png",
+                "selectedIconPath": "image/myself1.png"
+            }
+        ],
+        "borderStyle": "black",
+        "selectedColor": "#000000"
+    },
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

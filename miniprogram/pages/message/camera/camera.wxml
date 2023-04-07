@@ -1,0 +1,5 @@
+<!--pages/tianjia/tianjia.wxml-->
+<view class="m">动物识别</view>
+<image-select>
+
+</image-select>

@@ -1,0 +1,5 @@
+/* pages/Administrator/add_cat/add_cat.wxss */
+.name {
+    font-size: 35rpx;
+    border: tan solid 1rpx;
+}

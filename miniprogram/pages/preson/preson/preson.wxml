@@ -1,0 +1,35 @@
+<view>
+    <view class="logo">
+        <view class="logo_image">
+            <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/shangbiao.png"></image>
+            <view class="text">
+                <text>爱猫岛</text>
+            </view>
+            <view class="version">
+                <text>v-1.0.0</text>
+            </view>
+        </view>
+    </view>
+    <view class="list">
+        <navigator url="../../Administrator/login/login">
+            <view class="Administrator">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/Administartor-1.jpg"></image>
+            </view>
+        </navigator>
+        <navigator url="../feekback/feekback">
+            <view class="information_feekback">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/information_feekback.jpg"></image>
+            </view>
+        </navigator>
+        <navigator url="../about_us/about_us">
+            <view class="about_us">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/about_us.jpg"></image>
+            </view>
+        </navigator>
+        <navigator url="../version/version">
+            <view class="version_information">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/up_version.jpg"></image>
+            </view>
+        </navigator>
+    </view>
+</view>

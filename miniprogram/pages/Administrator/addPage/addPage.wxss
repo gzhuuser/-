@@ -1,0 +1,87 @@
+.title {
+    margin: 10rpx 10rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    background-color: #e3e3e3;
+}
+
+.wrap {
+    width: 100%;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+}
+
+.wrap .img-wrap {
+    font-size: 30rpx;
+    color: #33373E;
+    margin-bottom: 10rpx;
+}
+
+.wrap .img-wrap .txt {
+    margin-bottom: 20rpx;
+}
+
+.pic {
+    height: 150rpx;
+    width: 150rpx;
+    border: 1rpx solid blue;
+}
+
+.pic image {
+    height: 150rpx;
+    width: 150rpx;
+}
+
+.wrap .img-wrap .imglist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap .img-wrap .imglist .item {
+    width: 150rpx;
+    height: 150rpx;
+    margin-right: 22rpx;
+    margin-bottom: 10rpx;
+    position: relative;
+}
+
+.wrap .img-wrap .imglist .last-item {
+    width: 150rpx;
+    height: 150rpx;
+    text-align: center;
+    line-height: 146rpx;
+    border: 2rpx dashed #8B97A9;
+    box-sizing: border-box;
+}
+
+.wrap .img-wrap .imglist .item image {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap .img-wrap .imglist .item .delete {
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    top: -14rpx;
+    right: -12rpx;
+}
+
+.input {
+    margin-left: 20rpx;
+}
+
+.inner .input {
+    width: 680rpx;
+    height: 600rpx;
+    border: 1rpx solid red;
+    padding: 10rpx;
+}
+
+.btn {
+    margin-top: 10rpx;
+}
+
+.btn button {
+    background-color: red;
+}

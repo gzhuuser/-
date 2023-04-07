@@ -1,0 +1,28 @@
+<!--pages/Administrator/add_cat/add_cat.wxml-->
+<!-- <form bindsubmit="formSubmit">
+    <view class="name">
+        <label>猫咪姓名:</label>
+        <input type="text" name="cat_name" placeholder="输入猫咪姓名" />
+    </view>
+    <view class="pic">
+        <label>猫猫图片</label>
+        
+    </view>
+    <view class="inner">
+        <label>信息</label>
+        <textarea class="input" name="remark" placeholder="请输入内容" auto-focus="true" maxlength="-1" />
+    </view>
+</form> -->
+<van-cell-group style="float: left;">
+    <van-field required clearable label="猫咪名字" placeholder="请输入名字" bind:input='cat_name' />
+    <van-field label="别名" placeholder="请输入别名" required bind:input='cat_otherName' />
+    <van-field label="年龄" placeholder="请输入年龄" required bind:input='cat_year' />
+    <van-field label="出没地点" placeholder="请输入出没地点" required bind:input='cat_address' />
+    <van-field label="爱好" placeholder="请输入爱好" required bind:input='cat_intimacy' />
+    <van-field label="资料" placeholder="请输入资料" required type="textarea" bind:input='cat_story' />
+    <van-uploader file-list="{{ fileList }}" deletable="{{ true }}" />
+    <view style="text-align: center;">
+        <van-button plain hairline type="primary" deletable="{{ true }}">上传</van-button>
+    </view>
+
+</van-cell-group>

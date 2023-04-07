@@ -1,0 +1,93 @@
+.main {
+    float: left;
+    width: 700rpx;
+    background-color: #F3E9D6;
+    border-radius: 30rpx;
+}
+
+.w {
+    margin: 0 25rpx;
+}
+
+.w2 {
+    margin: 0 25rpx;
+}
+
+.cat_information1 {
+    width: 665rpx;
+    height: 270rpx;
+    background-color: #e6dccc;
+    margin-left: 18rpx;
+    margin-right: 18rpx;
+    margin-top: 10rpx;
+    color: #928876;
+}
+
+.image1 {
+    float: left;
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+    border-radius: 50%;
+}
+
+
+.name_otherName_gender_year {
+    float: left;
+    width: 380rpx;
+    height: 200rpx;
+    margin-top: 50rpx;
+    margin-left: 10rpx;
+}
+
+.name {
+    margin-bottom: 10rpx;
+}
+
+.gender {
+    margin-top: 10rpx;
+}
+
+.year {
+    margin-top: 10rpx;
+}
+
+.cat_information2 {
+    float: left;
+    color: #978e7c;
+    font-size: 30rpx;
+    background-color: #e6dccc;
+    margin-left: 18rpx;
+    margin-right: 18rpx;
+    line-height: 50rpx;
+}
+
+.address {
+    padding-top: 15rpx;
+}
+
+.intimacy {
+    margin-top: 30rpx;
+}
+
+.story {
+    margin-top: 30rpx;
+}
+
+.line {
+    float: left;
+    height: 15rpx;
+    color: #ffffff;
+}
+
+.picture {
+    margin-top: 30rpx;
+}
+
+.picture image {
+    float: left;
+    width: 215rpx;
+    height: 215rpx;
+    margin-right: 5rpx;
+}

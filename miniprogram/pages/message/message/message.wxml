@@ -1,0 +1,49 @@
+<view class="middle">
+    <view class="m-box">
+        <navigator url="../adoption/adoption">
+            <view class="img">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/aixin1.png"></image>
+            </view>
+            <view class="txt">领养</view>
+        </navigator>
+    </view>
+    <navigator url="../knowledge/knowledge">
+        <view class="m-box">
+            <view class="img">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/zhishi.png"></image>
+            </view>
+            <view class="txt">科普知识</view>
+        </view>
+    </navigator>
+    <navigator url="../camera/camera">
+        <view class="m-box">
+            <view class="img">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/camera.png"></image>
+            </view>
+            <view class="txt">神奇相机</view>
+        </view>
+    </navigator>
+    <navigator url="../activity/activity">
+        <view class="m-box">
+            <view class="img">
+                <image src="cloud://test-2ghmbb1v589c32c9.7465-test-2ghmbb1v589c32c9-1312200667/image/huodong.png"></image>
+            </view>
+            <view class="txt">最新活动</view>
+        </view>
+    </navigator>
+
+</view>
+
+<block wx:for="{{cat_list}}" class="block">
+    <view class="cat_list" bindtap="onclick" data-index="{{item._id}}">
+        <view class="cat_image">
+            <image src="{{item.image}}" mode="widthFix"></image>
+        </view>
+        <view class="cat_infromation">
+            <view class="cat_name h1">{{item.name}}</view>
+            <view class="cat_gender">性别:{{item.gender}}</view>
+            <view class="cat_character">性格:{{item.intimacy}}</view>
+            <view class="line">---------------</view>
+        </view>
+    </view>
+</block>

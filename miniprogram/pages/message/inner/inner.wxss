@@ -1,0 +1,60 @@
+/* pages/message/knowledge/knowledge.wxss */
+.know-box {
+    margin: 10rpx auto;
+    height: 1200rpx;
+    width: 680rpx;
+    background-image: url('https://7465-test-2ghmbb1v589c32c9-1312200667.tcb.qcloud.la/image/know2.png?sign=ca20659ffcb6b832ae1c25a886ba3590&t=1677234944');
+    background-size: 100% 100%;
+    border-radius: 20rpx 20rpx 20rpx 20rpx;
+}
+
+.know-title {
+    background-image: url('https://7465-test-2ghmbb1v589c32c9-1312200667.tcb.qcloud.la/image/name1.png?sign=d4214d5f2367cb834aef16d866f397b0&t=1677234793');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 200rpx;
+    width: 680rpx;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 10rpx 0rpx -20rpx 0rpx;
+    position: relative;
+    z-index: 2;
+
+}
+
+.name {
+    padding: 15rpx 20rpx 5rpx 20rpx;
+    width: 100%;
+    font-weight: 350;
+    font-size: 45rpx;
+}
+
+.know-content {
+    display: inline-block;
+    background-color: rgb(255, 251, 210);
+    margin: 0rpx 0rpx 0rpx 20rpx;
+    height: 580rpx;
+    width: 630rpx;
+    font-size: 45rpx;
+    line-height: 60rpx;
+    border-radius: 20rpx 20rpx 20rpx 20rpx;
+    position: relative;
+    z-index: 1;
+    padding: 20rpx 0rpx 0rpx 10rpx;
+}
+
+.know-image {
+    display: inline-block;
+    margin: 10rpx 17rpx 10rpx 17rpx;
+    height: 400rpx;
+    width: 646rpx;
+}
+
+.cat-image {
+    display: inline-block;
+    height: 400rpx;
+    width: 646rpx;
+    border-radius: 10rpx 10rpx 10rpx 10rpx;
+}

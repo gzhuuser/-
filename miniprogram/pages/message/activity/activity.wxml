@@ -1,0 +1,7 @@
+<!--pages/message/knowledge/knowledge.wxml-->
+<view class="konwledge" wx:for="{{activity}}" wx:key="item" bindtap="onclick" data-index="{{item._id}}">
+    <view class="image_title">
+        <image src="{{item.image[0]}}"></image>
+        <view class="text">{{item.title}}</view>
+    </view>
+</view>

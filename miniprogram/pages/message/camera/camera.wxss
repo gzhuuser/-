@@ -1,0 +1,7 @@
+/* pages/tianjia/tianjia.wxss */
+.m {
+    width: 750rpx;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+}
